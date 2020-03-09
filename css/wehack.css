@@ -227,6 +227,12 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+.theme{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
