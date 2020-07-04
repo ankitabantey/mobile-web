@@ -25,6 +25,97 @@
 
 </head>
 
+<style>
+
+li{
+  list-style-type: none;
+  margin: 2vw 0;
+  
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: #ffa508;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: right;
+  padding: 2vw;
+}
+
+nav{
+  width: 100vw;
+  background-color: #693375;
+}
+
+ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+ 
+  display: flex;  
+}
+
+body{
+  margin: 0;
+}
+
+button{
+  display: none;
+}
+
+a:hover{
+  background-color: #693375;
+}
+
+@media only screen and (max-width: 500px) {
+  ul{
+    flex-direction: column;
+  }
+  
+  a{
+    display: block;
+  }
+  
+  li{
+    margin: 0;
+  }
+  
+  button{
+    display: block;
+    
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #693375;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    align-self: flex-start;
+  }
+}
+</style>
+
+<nav>
+  <ul>
+    <li> 
+      <!-- link one -->
+      <a href="#page-section"> About </a>
+    </li>
+    <li>
+      <!-- link two -->
+       <a href="#projects"> Our Mission </a>
+    </li>
+    <li>
+      <!-- link three -->
+      <a href="#cv"> Sponsors </a>
+    </li>
+    <li>
+      <!-- link four -->
+      <a href="#faq py-5"> FAQ </a>
+    </li>
+  </ul>
+</nav>
+
 <body id="page-top">
   <!-- Header -->
   <header class="masthead">
@@ -35,6 +126,7 @@
       <div style="padding-bottom: 25px">
      <!--<button type="button">Register Now!</button>-->
     </div>
+    <!--  -->
     <center><a class="btn btn-primary text-uppercase js-scroll-trigger" href="https://wehack-dashboard.herokuapp.com/" target="_blank">Register Now</a></center>
   </header>
 
@@ -74,6 +166,31 @@
       </div>
     </div>
   </section>
+    </div>
+  </section>
+
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <table>
+            <tr>
+              <td style="padding-right: 10rem; text-align: left">
+                <h2 class="section-heading text-uppercase"><font color="#503357">Why WEHack</font></h2>
+                <p class="lead mb-0">
+                  <font color="#503357">There is a huge disparity in the number of women and non-binary students participating in hackathons.
+                  In fact only <font color="#ef466e"><strong>24% of participants are women</strong></font> and <font color="#ffa508"><strong>
+                  3% of participants identify as non-binary/other.</strong></font> So, it is not surprising that this lack of diversity ultimately affects the gender parity in the tech industry at large. By participating, we want students to gain valuable experience through networking, and learning from distinguished speakers, inspiring mentors, and peers.
+                  </font>
+                </p>
+              </td>
+              <td>
+                <div class="stat2"><img src="img/pieChart.png" alt="pieChart" style="width:540px; height: 400px;"></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -216,7 +333,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Who can attend</h3>
             </div>
 
@@ -236,14 +353,14 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>When and where is WEHack</h3>
             </div>
 
             <div class="team-back">
               <span>
                 <center>
-                  WEHack 2020 will be happening from April 4th-5th and will be located in the ECSW building at the UTD campus!
+                  WEHack 2020 will be happening from October 10th-11th and will be happening virtually through an online format!
                 </center>
               </span>
             </div>
@@ -257,7 +374,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Do I need to be a CS major/minor</h3>
             </div>
 
@@ -278,7 +395,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>How do I apply?</h3>
             </div>
 
@@ -299,7 +416,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Can I participate if I am a high schooler?</h3>
             </div>
 
@@ -320,7 +437,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>How can I mentor or volunteer at WEHack 2020?</h3>
             </div>
             <div class="team-back">
@@ -338,13 +455,13 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Does this cost money?</h3>
             </div>
             <div class="team-back">
               <span>
                 <center>
-                  WEHack 2020 is completely free! We will cover your overnight stay, meals (with plenty of snacks of course), swag, provided by our wonderful sponsors, and prizes!
+                  WEHack 2020 is completely free! Everything is covered including our sweet swag which will be sent to you via mail!
                 </center>
               </span>
             </div>
@@ -355,7 +472,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>How do teams at WEHack 2020 work</h3>
             </div>
 
@@ -374,13 +491,13 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>When are applications due and hear back?</h3>
             </div>
             <div class="team-back">
               <span>
                 <center>
-                  Applications for WEHack 2020 are due on March 6th. You will hear back from us on March 16th.
+                  Applications for WEHack 2020 are due on ______. You will hear back from us on ______.
                 </center>
               </span>
             </div>
@@ -391,13 +508,13 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Will hardware be available?</h3>
             </div>
             <div class="team-back">
               <span>
                 <center>
-                  We will be providing hardware for you!
+                  We will be providing hardware for you! For hardware projects, please come to ECS West to pick up and drop off supplies.
                 </center>
               </span>
             </div>
@@ -408,13 +525,13 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
-              <h3>What should I bring</h3>
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
+              <h3>Will this hackathon be virtual?</h3>
             </div>
             <div class="team-back">
               <span>
                 <center>
-                  Please bring a valid ID for admission and anything that will help you on your project.
+                  WEHack 2020 will be completely virtual! To pursue a hardware project, you can collect and drop off supplies from ECS West!
                 </center>
               </span>
             </div>
@@ -425,7 +542,7 @@
           <div class="our-team-main">
 
             <div class="team-front">
-              <img src="https://image.flaticon.com/icons/svg/1578/1578258.svg" class="img-fluid" />
+              <img src="img/WEHack Logo copy.jpg" class="img-fluid" />
               <h3>Can I sleep at WEHack2020?</h3>
             </div>
             <div class="team-back">
@@ -506,7 +623,14 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/a-tasnim.png" alt="">
+            <!-- <img class="mx-auto rounded-circle" src="img/team/a-bantey.png" alt="">
+            <h4>Ankita Bantey</h4>
+            <p class="text-muted">Development Head</p> -->
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle center" src="img/team/a-tasnim.png" alt="">
             <h4>Afrida Tasnim</h4>
             <p class="text-muted">Industry Head</p>
           </div>
